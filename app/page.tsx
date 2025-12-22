@@ -146,6 +146,11 @@ export default function Home() {
       case "clear":
         setOutput([]);
         return;
+      case "sudo rm -rf /":
+          response = [
+            "Please no, only on your machine!"
+            ];
+        break;
       default:
         response = cmd.length ? [`command not found: ${cmd}`] : [];
     }
