@@ -138,6 +138,10 @@ export default function Home() {
         response = [
           "GitHub: https://github.com/Benedek553",
           "Email: carnevalben@gmail.com",
+          "X: https://x.com/Benedek553.com",
+          "Reddit: https://www.reddit.com/user/JustAProgrammer25",
+          "Dev.to: https://dev.to/benedek553"
+          
         ];
         break;
       case "normal":
@@ -289,6 +293,24 @@ export default function Home() {
                   href="mailto:carnevalben@gmail.com"
                 >
                   Email
+                </a>
+                <a
+                  className="rounded-lg border border-green-500/30 bg-black/40 px-3 py-2 hover:bg-black/60 transition"
+                  href="https://x.com/Benedek553"
+                >
+                  X
+                </a>
+                <a
+                  className="rounded-lg border border-green-500/30 bg-black/40 px-3 py-2 hover:bg-black/60 transition"
+                  href="https://reddit.com/user/JustAProgrammer25"
+                >
+                  Reddit
+                </a>
+                <a
+                  className="rounded-lg border border-green-500/30 bg-black/40 px-3 py-2 hover:bg-black/60 transition"
+                  href="https://dev.to/benedek553"
+                >
+                  Dev.to
                 </a>
               </div>
             </section>
