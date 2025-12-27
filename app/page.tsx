@@ -125,6 +125,7 @@ export default function Home() {
         response = [
           "CLI Calculator – modern C++ CLI calculator (OSS)",
           "More: https://github.com/Benedek553",
+          "Site: https://benedek553.github.io/cli-calculator",
         ];
         break;
       case "skills":
@@ -260,7 +261,7 @@ export default function Home() {
               <h2 className="text-lg text-green-100">Projects</h2>
               <div className="mt-3 grid gap-3 sm:grid-cols-2">
                 <a
-                  href="https://github.com/Benedek553/cli-calculator"
+                  href="https://benedek553.github.io/cli-calculator"
                   className="rounded-xl border border-green-500/30 bg-black/40 p-4 hover:bg-black/60 transition"
                 >
                   <div className="text-green-100">CLI Calculator</div>
