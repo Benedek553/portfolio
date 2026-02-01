@@ -226,7 +226,7 @@ export default function Home() {
             <div>
               <p className="text-sm text-green-300/80">Portfolio</p>
               <h1 className="mt-2 text-3xl sm:text-5xl font-semibold tracking-tight text-green-100">
-                Farsang Benedek
+                Benedek Farsang
               </h1>
               <p className="mt-3 max-w-2xl text-green-200/80 leading-relaxed">
                 DevOps Engineer and software developer. I build automation-first workflows, cloud-ready apps, and clean,
@@ -268,7 +268,7 @@ export default function Home() {
                   <div className="mt-1 text-sm text-green-200/70">
                     Modern C++ CLI calculator with automation, CI, and frequent releases.
                   </div>
-                </a>.
+                </a>
                 <a
                   href="https://benedek553.github.io/cli-calculator"
                   className="rounded-xl border border-green-500/30 bg-black/40 p-4 hover:bg-black/60 transition"
