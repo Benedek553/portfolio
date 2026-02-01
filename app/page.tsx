@@ -123,9 +123,9 @@ export default function Home() {
         break;
       case "projects":
         response = [
-          "CLI Calculator – modern C++ CLI calculator (OSS)",
-          "More: https://github.com/Benedek553",
-          "Site: https://benedek553.github.io/cli-calculator",
+          "CLI Calculator: https://github.com/benedek553/cli-calculator",
+          "Connections: https://github.com/zacharymk1213/connections",
+          "More: https://github.com/Benedek553"
         ];
         break;
       case "skills":
@@ -268,8 +268,16 @@ export default function Home() {
                   <div className="mt-1 text-sm text-green-200/70">
                     Modern C++ CLI calculator with automation, CI, and frequent releases.
                   </div>
+                </a>.
+                <a
+                  href="https://benedek553.github.io/cli-calculator"
+                  className="rounded-xl border border-green-500/30 bg-black/40 p-4 hover:bg-black/60 transition"
+                >
+                  <div className="text-green-100">Connections</div>
+                  <div className="mt-1 text-sm text-green-200/70">
+                    Contributed to Zacharymk1213/Connections. Original description: An app enabling people to sort their connections in database format.
+                  </div>
                 </a>
-
                 <a
                   href="https://github.com/Benedek553"
                   className="rounded-xl border border-green-500/30 bg-black/40 p-4 hover:bg-black/60 transition"
@@ -311,14 +319,14 @@ export default function Home() {
                   className="rounded-lg border border-green-500/30 bg-black/40 px-3 py-2 hover:bg-black/60 transition"
                   href="https://dev.to/benedek553"
                 >
-                  Dev.to
+                  Dev
                 </a>
               </div>
             </section>
           </div>
 
           <footer className="mt-10 text-xs text-green-200/50">
-            © {new Date().getFullYear()} Benedek
+            © {new Date().getFullYear()} Benedek Farsang
           </footer>
         </div>
       )}
