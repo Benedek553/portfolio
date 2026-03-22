@@ -152,7 +152,7 @@ export default function Home() {
         setOutput([]);
         return;
       case "sudo rm -rf /":
-        response = ["Please no, only on your machine!"];
+        response = ["Nice try. Operation cancelled - I like this server."];
         break;
       default:
         response = cmd.length ? [`command not found: ${cmd}`] : [];
