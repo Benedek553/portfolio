@@ -118,14 +118,14 @@ export default function Home() {
         break;
       case "about":
         response = [
-          "DevOps Engineer and software developer.",
-          "Focused on automation, CI/CD, cloud, and clean tooling.",
+          "Founder and DevOps engineer at GTRNews.",
+          "DevOps Engineer and software developer focused on automation, CI/CD, cloud, and clean tooling.",
         ];
         break;
       case "projects":
         response = [
+          "GTRNews: founder and DevOps engineer - https://gtrnews.eu",
           "CLI Calculator: https://github.com/benedek553/cli-calculator",
-          "GTRNews: founder and DevOps engineer",
           "Connections: https://github.com/zacharymk1213/connections",
           "More: https://github.com/Benedek553",
         ];
@@ -269,7 +269,7 @@ export default function Home() {
                   Benedek Farsang
                 </h1>
                 <p className="mt-3 max-w-2xl text-green-200/80 leading-relaxed">
-                  DevOps Engineer and software developer. I build automation-first workflows, cloud-ready apps, and clean,
+                  Founder and DevOps engineer at GTRNews. I build automation-first workflows, cloud-ready apps, and clean,
                   fast tooling.
                 </p>
               </div>
@@ -286,8 +286,8 @@ export default function Home() {
               >
                 <h2 className="text-lg text-green-100">About</h2>
                 <p className="mt-2 text-sm text-green-200/75 leading-relaxed">
-                  Linux-based dev, Azure-first, multicloud mindset. I like strong CI/CD, reproducible builds, and
-                  contributor-friendly repos.
+                  Founder and DevOps engineer at GTRNews. Linux-based dev, Azure-first, multicloud mindset. I like strong
+                  CI/CD, reproducible builds, and contributor-friendly repos.
                 </p>
               </motion.section>
 
@@ -302,6 +302,7 @@ export default function Home() {
                   <li>• DevOps: GitHub Actions, Docker, CI/CD automation</li>
                   <li>• Languages: C++, Bash, Python</li>
                   <li>• Tooling: Linux, Git, CMake</li>
+                  <li>• Startup infrastructure: GTRNews</li>
                 </ul>
               </motion.section>
 
@@ -315,24 +316,24 @@ export default function Home() {
                   <motion.a
                     whileHover={{ y: -4, scale: 1.02 }}
                     transition={{ duration: 0.2 }}
-                    href="https://benedek553.github.io/cli-calculator"
+                    href="https://gtrnews.eu"
                     className="rounded-xl border border-green-500/30 bg-black/40 p-4 hover:bg-black/60 transition"
                   >
-                    <div className="text-green-100">CLI Calculator</div>
+                    <div className="text-green-100">GTRNews</div>
                     <div className="mt-1 text-sm text-green-200/70">
-                      Modern C++ CLI calculator with automation, CI, and frequent releases.
+                      Founder and DevOps engineer. Building startup infrastructure, automation, and cloud workflows.
                     </div>
                   </motion.a>
 
                   <motion.a
                     whileHover={{ y: -4, scale: 1.02 }}
                     transition={{ duration: 0.2 }}
-                    href="https://gtrnews.hu"
+                    href="https://benedek553.github.io/cli-calculator"
                     className="rounded-xl border border-green-500/30 bg-black/40 p-4 hover:bg-black/60 transition"
                   >
-                    <div className="text-green-100">GTRNews</div>
+                    <div className="text-green-100">CLI Calculator</div>
                     <div className="mt-1 text-sm text-green-200/70">
-                      Founder and DevOps engineer. Building startup infrastructure, automation, and cloud workflows.
+                      Modern C++ CLI calculator with automation, CI, and frequent releases.
                     </div>
                   </motion.a>
 
